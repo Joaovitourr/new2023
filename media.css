@@ -1,0 +1,18 @@
+@media(min-width: 1024px){
+    .projetos{
+  
+         display: grid;
+         margin-left: 6rem;
+         grid-template-columns: repeat(3, 1fr);
+         gap: 1.2rem;
+         flex-wrap: wrap;
+         width: 100hw;
+    } article{
+        border: none;
+        } .projects-img{
+            width: 100%;
+            
+        } #hamburguer, .nav{
+            margin-right: 2rem;
+        }
+    }
